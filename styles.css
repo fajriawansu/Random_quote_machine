@@ -1,0 +1,25 @@
+* {
+  font-size: 1.2rem;
+  margin: 20px;
+  text-align: center;
+}
+h1, p {
+  color: white;
+}
+.direction {
+  display: flex;
+  justify-content: space-between;
+}
+button {
+  background-color: Transparent;
+  outline: none;
+  border: none;
+  color: green;
+}
+button:hover {
+  color: blue;
+  cursor: pointer;
+}
+#btncolor1:hover, #btncolor2:hover {
+  font-size: 1.8rem;
+}
